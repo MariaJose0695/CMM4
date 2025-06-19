@@ -126,7 +126,7 @@ st.subheader("📄 Convertir archivo TXT CMM a Excel horizontal")
 archivo_txt = st.file_uploader("📤 Carga el archivo TXT de CMM", type=["txt"], key="txt_cmm")
 
 puntos_deseados = [
- "DIM 1000L", "DIM 1000R", "DIM 1101L", "DIM 1101R", "1101L_743"
+ "DIM 1000L= UBICACIÓN DE RAN 1000L_  UNIDADES=MM"
 ]
 
 if archivo_txt:
